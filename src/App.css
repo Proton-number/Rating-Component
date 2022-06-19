@@ -1,0 +1,202 @@
+ *{
+ padding: 0;
+}
+
+body{
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  align-items: center;
+}
+
+
+.parent{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  background-color: hsl(213, 19%, 18%);
+  width: 22%;
+  padding: 12px;
+  border-radius: 18px;
+  margin-top: 10em;
+
+ 
+}
+.star{
+  background-color: hsl(216, 12%, 8%) ;
+  border-radius: 19px;
+  width: 33px;
+  height: 33px;
+  margin-left: 8px;
+}
+
+img{
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 4px;
+  width: 41%
+}
+
+.words{
+  margin-left: 12px;
+ 
+}
+
+.words h3{
+  color:  hsl(0, 0%, 100%);
+  line-height: 0.1em;
+}
+
+.words p{
+  color: hsl(216, 12%, 54%);
+}
+
+.one button{
+  background-color: hsl(216, 12%, 8%); 
+  padding: 10px ;
+  width: 39px;
+  height: 40px;
+  border-radius: 18px;
+}
+
+.two button{
+  background-color: hsl(216, 12%, 8%); 
+  padding: 10px ;
+  width: 39px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.three button{
+  background-color: hsl(216, 12%, 8%); 
+  padding: 10px ;
+  width: 39px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.four button{
+  background-color: hsl(216, 12%, 8%); 
+  padding: 10px ;
+  width: 39px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.five button{
+  background-color: hsl(216, 12%, 8%); 
+  padding: 10px ;
+  width: 39px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+
+ .numbers ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+
+.numbers ul :hover{
+  color: white;
+}
+
+.numbers ul :hover{
+  background-color:hsl(217, 12%, 63%) ;
+  border-radius: 20px;
+}
+
+.numbers ul li button{
+  color: hsl(216, 12%, 54%);
+}
+
+
+button{
+  width: 90%;
+  height: 30px;
+  border-radius: 19px;
+  background-color:  hsl(25, 97%, 53%);
+  color:  hsl(0, 0%, 100%);
+  border: none;
+}
+
+
+.btn :hover{
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+
+.container2{
+  background-color: hsl(213, 19%, 18%);
+  width: 22%;
+  padding: 13px;
+  border-radius: 18px;
+  margin-top: 10em;
+  font-size: 14px;
+ 
+  
+}
+
+.select{
+  background-color: hsl(216, 12%, 8%);
+  width:63% ;
+  margin-left: 19%;
+  border-radius: 20px;
+}
+
+.select p{
+  color: hsl(25, 97%, 53%);
+  padding: 4px;
+}
+
+.words2{
+  line-height: 1.2em;
+}
+
+.words2 h2{
+  color: hsl(0, 0%, 100%);
+}
+
+.words2 p{
+  color: hsl(216, 12%, 54%);
+}
+
+
+
+@media only screen and (min-device-width:200px) and (max-device-width:800px) {
+ 
+.container{
+  background-color: hsl(213, 19%, 18%);
+  width: 64%;
+  padding: 12px;
+  border-radius: 18px;
+  margin-top: 10em;
+}
+
+
+
+
+
+.container2{
+  background-color: hsl(213, 19%, 18%);
+  width: 64%;
+  padding: 12px;
+  border-radius: 18px;
+  margin-top: 10em;
+  font-size: 15px;
+}
+
+
+.select{
+  background-color: hsl(216, 12%, 8%);
+  width:79% ;
+  margin-left: 10%;
+  border-radius: 20px;
+}
+
+
+}
