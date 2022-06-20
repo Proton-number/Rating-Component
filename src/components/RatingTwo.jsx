@@ -12,7 +12,10 @@ function RatingTwo({isSubmitted, setIsSubmitted,rating, setRating}) {
 <div className= "container2"  >
 
 <div align='center'>
-<img src='/images/illustration-thank-you.svg' alt="" />
+  <svg>
+  <image href='/images/illustration-thank-you.svg' alt="" />
+  </svg>
+
 </div>
 
 

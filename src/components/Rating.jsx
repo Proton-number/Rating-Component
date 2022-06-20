@@ -25,7 +25,10 @@ function Rating () {
   
  <div className='container'>
     <div className='star'>
-    <img src='/images/icon-star.svg' alt="" />
+     <svg>
+     <image href="/images/icon-star.svg"  alt="" />
+     </svg>
+    
     </div>
 
     <div className='words'>
