@@ -26,7 +26,7 @@ function Rating () {
  <div className='container'>
     <div className='star'>
      <svg>
-     <image href="/images/icon-star.svg"  alt="" />
+     <image href="../../images/icon-star.svg"  alt="" />
      </svg>
     
     </div>

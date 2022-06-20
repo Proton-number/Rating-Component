@@ -13,7 +13,7 @@ function RatingTwo({isSubmitted, setIsSubmitted,rating, setRating}) {
 
 <div align='center'>
   <svg>
-  <image href='/images/illustration-thank-you.svg' alt="" />
+  <image href='../../images/illustration-thank-you.svg' alt="" />
   </svg>
 
 </div>
