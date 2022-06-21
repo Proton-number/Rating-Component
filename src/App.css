@@ -31,10 +31,6 @@ body{
   margin-left: 8px;
 }
 
- .star svg{
-margin-top: 8px;
-margin-left: 8px;
-}
 
 img{
   padding: 5px;
@@ -146,9 +142,6 @@ button{
   
 }
 
-svg{
-  margin-left: 63px;
-}
 
 .select{
   background-color: hsl(216, 12%, 8%);

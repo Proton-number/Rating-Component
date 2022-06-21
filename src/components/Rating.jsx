@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import RatingTwo from './RatingTwo'
+import img1 from "/src/images/icon-star.svg"
 
 
 
@@ -25,9 +26,9 @@ function Rating () {
   
  <div className='container'>
     <div className='star'>
-     <svg>
-     <image href="../../images/icon-star.svg"  alt="" />
-     </svg>
+     
+     <img src={img1} />
+     
     
     </div>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import image2 from "/src/images/illustration-thank-you.svg"
 
 function RatingTwo({isSubmitted, setIsSubmitted,rating, setRating}) {
  
@@ -12,9 +13,9 @@ function RatingTwo({isSubmitted, setIsSubmitted,rating, setRating}) {
 <div className= "container2"  >
 
 <div align='center'>
-  <svg>
-  <image href='../../images/illustration-thank-you.svg' alt="" />
-  </svg>
+  
+  <img src ={image2}  alt="" />
+ 
 
 </div>
 

@@ -1,0 +1,402 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20220620.112646.9584.0.001.json",
+    "dumpEventTime": "2022-06-20T11:26:46Z",
+    "dumpEventTimeStamp": "1655720807403",
+    "processId": 9584,
+    "cwd": "C:\\Users\\John\\Documents\\My sites\\Asuu strike Projects\\React Projects\\Rating-component",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\John\\Documents\\My sites\\Asuu strike Projects\\React Projects\\Rating-component\\node_modules\\.bin\\\\..\\vite\\bin\\vite.js"
+    ],
+    "nodejsVersion": "v12.10.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.10.0",
+      "v8": "7.6.303.29-node.16",
+      "uv": "1.31.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.10.0/node-v12.10.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.10.0/node-v12.10.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.10.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "6.2.9200",
+    "osVersion": "Windows 8",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD E-300 APU with Radeon(tm) HD Graphics",
+        "speed": 1298,
+        "user": 37530314,
+        "nice": 0,
+        "sys": 10673697,
+        "idle": 18971656,
+        "irq": 354949
+      },
+      {
+        "model": "AMD E-300 APU with Radeon(tm) HD Graphics",
+        "speed": 1298,
+        "user": 33008438,
+        "nice": 0,
+        "sys": 13888394,
+        "idle": 20278023,
+        "irq": 2084298
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "a4:db:30:33:08:ac",
+        "address": "fe80::fc2e:1501:af60:1e6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "a4:db:30:33:08:ac",
+        "address": "192.168.0.106",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "OLAMIDE"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x000007f70dd46eb9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70dd4b24c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70dd4a1f8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70de363cb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70e62976e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70e611711",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70e4df1cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70e4e6d81",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70e4dc7a3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70e4db044",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70e4fa855",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70e2694ed",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70ea4300d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70e9ec842",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70ea9e24c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000007f70e9c0abc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000002a4125facc8",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 31617024,
+    "totalCommittedMemory": 31617024,
+    "usedMemory": 24764744,
+    "availableMemory": 1955590264,
+    "memoryLimit": 1979711488,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31432,
+        "available": 230400
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047328,
+        "used": 1047192,
+        "available": 136
+      },
+      "old_space": {
+        "memorySize": 18722816,
+        "committedMemory": 18722816,
+        "capacity": 18657480,
+        "used": 13036752,
+        "available": 5620728
+      },
+      "code_space": {
+        "memorySize": 1212416,
+        "committedMemory": 1212416,
+        "capacity": 947872,
+        "used": 844320,
+        "available": 103552
+      },
+      "map_space": {
+        "memorySize": 1576960,
+        "committedMemory": 1576960,
+        "capacity": 1574376,
+        "used": 1080720,
+        "available": 493656
+      },
+      "large_object_space": {
+        "memorySize": 8744960,
+        "committedMemory": 8744960,
+        "capacity": 8720776,
+        "used": 8720776,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047328,
+        "used": 0,
+        "available": 1047328
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 13.291,
+    "kernelCpuSeconds": 2.589,
+    "cpuConsumptionPercent": 0.328574,
+    "maxRss": 79060992,
+    "pageFaults": {
+      "IORequired": 83737,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 10461,
+      "writes": 4817
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "": "C:=C:\\Users\\John\\Documents\\My sites\\Asuu strike Projects\\React Projects\\Rating-component",
+    "ADSK_CLM_WPAD_PROXY_CHECK": "FALSE",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\John\\AppData\\Roaming",
+    "asl.log": "Destination=file",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_6236_SLQVSWVCKUMUIZSD",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "OLAMIDE",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "easyplussdk": "\"C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin\"",
+    "FP_NO_HOST_CHECK": "NO",
+    "GIT_ASKPASS": "c:\\Users\\John\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "GOOGLE_API_KEY": "no",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\John",
+    "INIT_CWD": "C:\\Users\\John\\Documents\\My sites\\Asuu strike Projects\\React Projects\\Rating-component",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\John\\AppData\\Local",
+    "LOGONSERVER": "\\\\OLAMIDE",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"dev\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.18 npm/? node/v12.10.0 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Users\\John\\AppData\\Roaming\\npm\\node_modules\\yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "dev",
+    "npm_lifecycle_script": "vite",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_dependencies_react": "^18.0.0",
+    "npm_package_dependencies_react_dom": "^18.0.0",
+    "npm_package_dependencies_react_router_dom": "^6.3.0",
+    "npm_package_devDependencies_gh_pages": "^4.0.0",
+    "npm_package_devDependencies_vite": "^2.9.9",
+    "npm_package_devDependencies__types_react": "^18.0.0",
+    "npm_package_devDependencies__types_react_dom": "^18.0.0",
+    "npm_package_devDependencies__vitejs_plugin_react": "^1.3.0",
+    "npm_package_name": "pricing-component",
+    "npm_package_private": "true",
+    "npm_package_scripts_build": "vite build",
+    "npm_package_scripts_dev": "vite",
+    "npm_package_scripts_preview": "vite preview",
+    "npm_package_version": "0.0.0",
+    "NUMBER_OF_PROCESSORS": "2",
+    "OnlineServices": "Online Services",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\John\\AppData\\Local\\Temp\\yarn--1655715977590-0.3489718881205073;C:\\Users\\John\\Documents\\My sites\\Asuu strike Projects\\React Projects\\Rating-component\\node_modules\\.bin;C:\\Users\\John\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Users\\John\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\ClockworkMod\\Universal Adb Driver;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\Program Files\\heroku\\bin;C:\\Users\\John\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\John\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PCBRAND": "Pavilion",
+    "Platform": "MCD",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 20 Model 2 Stepping 0, AuthenticAMD",
+    "PROCESSOR_LEVEL": "20",
+    "PROCESSOR_REVISION": "0200",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\John\\Documents\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\John\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.68.0",
+    "TMP": "C:\\Users\\John\\AppData\\Local\\Temp",
+    "USERDOMAIN": "OLAMIDE",
+    "USERDOMAIN_ROAMINGPROFILE": "OLAMIDE",
+    "USERNAME": "John",
+    "USERPROFILE": "C:\\Users\\John",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "--ms-enable-electron-run-as-node",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\John\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\John\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-70b7eb16b1-sock",
+    "windir": "C:\\Windows",
+    "YARN_WRAP_OUTPUT": "false"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\system32\\KERNEL32.DLL",
+    "C:\\Windows\\system32\\KERNELBASE.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\system32\\WS2_32.dll",
+    "C:\\Windows\\system32\\ADVAPI32.dll",
+    "C:\\Windows\\system32\\USER32.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\system32\\PSAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\system32\\CRYPT32.dll",
+    "C:\\Windows\\SYSTEM32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\system32\\msvcrt.dll",
+    "C:\\Windows\\system32\\RPCRT4.dll",
+    "C:\\Windows\\system32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\sechost.dll",
+    "C:\\Windows\\system32\\GDI32.dll",
+    "C:\\Windows\\SYSTEM32\\WINNSI.DLL",
+    "C:\\Windows\\SYSTEM32\\profapi.dll",
+    "C:\\Windows\\system32\\MSASN1.dll",
+    "C:\\Windows\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\Windows\\system32\\IMM32.DLL",
+    "C:\\Windows\\system32\\MSCTF.dll",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\system32\\bcryptprimitives.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\system32\\PrxerNsp.dll",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+    "C:\\Windows\\SYSTEM32\\cryptbase.dll"
+  ]
+}
